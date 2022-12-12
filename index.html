@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Portafolio de Jalil Espinoza</title>
+
+    <!-- Tipos de fuentes de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <!-- Normaliza el contenido de en varios navegadores-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Mis estilos personalizados -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Crea el encabezado de nuestro sitio web. Contiene el menu y el perfil -->
+    <header>
+        <div class="contenedor">
+            <!-- Menu de navegación -->
+            <nav class="menu">
+                <a href="#acerca-de" onclick="efectTransition()">Acerca de</a>
+                <a href="#trabajos" onclick="efectTransition()">Trabajos</a>
+                <a href="#contacto" onclick="efectTransition()">Contacto</a>
+            </nav>
+            <div class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre"> Jalil Espinoza </h1>
+                    <h1 class="profesion">Mtr. en ciencias de la computación</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido principal del portafolio. Secciones "acerca-de" y "trabajos" -->
+    <section class="main">
+        <section class="acerca-de" id="acerca_de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/perfil/jalilEspinoza_min2_150x150px.png" alt="Foto de Jalil Espinoza">
+                </div>
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Actualmente me desempeño como <span class="bold"> Analista programador </span>
+                        <span class="bold"> y profesor investigador </span>.
+                    <p>Maestro en ciencias de la computación por el Instituto Tecnológico de Hermosillo.
+                        Ingeniero de sistemas en ISA (Ingeniería en Sistemas Audiovisuales).
+                        Coordinador de área de sistemas de la Comisión del Deporte del Estado de Sonora
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="trabajos" id="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+                        <a href="archivos/EC1-F1-A1.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/1.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC1 F1 Actividad de aprendizaje 1</p>
+                                <p class="categoria">Diagnostico general en Diseño Web</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="trabajo">
+                        <a href="archivos/EC1-F1-A2.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/9.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC1 F1 Actividad de aprendizaje 2</p>
+                                <p class="categoria">Evaluación diagnostica de HTML de la materia de “Diseño
+                                    Web”</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="#" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/6.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC1 F1 Actividad de aprendizaje 3</p>
+                                <p class="categoria">Infografía de usabilidad y accesibilidad </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC1-F1-A4.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/3.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC1 F1 Actividad de aprendizaje 4</p>
+                                <p class="categoria">Descripción de un proyecto web</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC1-F2-A5.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/4.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC1 F2 Actividad de aprendizaje 5</p>
+                                <p class="categoria">Desarrollar un sitio web con HTML</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC1-F2-A6.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/1.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC1 F2 Actividad de aprendizaje 6</p>
+                                <p class="categoria">Desarrollar un portafolio utilizando las etiquetas de
+                                    estructura HTML.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC2-F1-A7.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/6.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F1 Actividad de aprendizaje 7</p>
+                                <p class="categoria">Mapa conceptual de las unidades de medidas en CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC2-F1-A8.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/1.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F1 Actividad de aprendizaje 8</p>
+                                <p class="categoria">Diseñar botones con HTML y CSS.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC2-F2-A9.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/2.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F2 Actividad de aprendizaje 9</p>
+                                <p class="categoria">Desarrollar un portafolio utilizando las etiquetas de estructura de
+                                    HTML y
+                                    CSS - segunda parte.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC2-F3-A10.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/3.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F3 Actividad de aprendizaje 10</p>
+                                <p class="categoria">Introducción a CSS Flexbox.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC2-F3-A11.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/4.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F3 Actividad de aprendizaje 11</p>
+                                <p class="categoria">Desarrollar un portafolio utilizando las etiquetas de estructura de
+                                    HTML,
+                                    CSS y CSS-Flexbox - tercera parte.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC2-F4-A12.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/9.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F4 Actividad de aprendizaje 12</p>
+                                <p class="categoria">Desarrollar un portafolio utilizando las etiquetas de estructura
+                                    de HTML, CSS, CSS-Flexbox y Media Query – cuarta parte. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC3-F1-A13.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/6.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC3 F1 Actividad de aprendizaje 13</p>
+                                <p class="categoria">Desarrollar avance del diseño web del proyecto final. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC3-F1-A14.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/3.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC3 F1 Actividad de aprendizaje 14</p>
+                                <p class="categoria">Realizar ejercicios usando sentencias básicas de JavaScript. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC3-F2-A15.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/1.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC2 F2 Actividad de aprendizaje 15</p>
+                                <p class="categoria"> Realizar ejercicios utilizando funciones en JavaScript. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="trabajo">
+                        <a href="archivos/EC3-F3-A16.pdf" target="_blank">
+                            <div class="thumb">
+                                <img src="img/trabajos/2.jpg" alt="Imagen de prueba">
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">EC3 F3 Actividad de aprendizaje 16</p>
+                                <p class="categoria">Realizar ejercicios utilizando DOM y Eventos en JavaScript. </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Pie de pagina de nuestro portafolio. Secciones "contacto" y "redes-sociales" -->
+    <footer>
+        <section class="contacto" id="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">Contacto</h3>
+                <form class="formulario" id="formulario" action="test.html" method="POST">
+                    <input type="text" placeholder="nombre" name="nombre" id="nombre">
+                    <input type="email" placeholder="Correo" name="email" id="email">
+                    <textarea placeholder="Mensaje:" name="mensaje" id="mensaje"></textarea>
+                    <input type="submit" value="enviar" name="enviar" class="boton">
+                </form>
+            </div>
+        </section>
+
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="" class="youtube"><i class="fa fa-youtube-play"></i></a>
+                <a href="" class="github"><i class="fa fa-github"></i></a>
+                <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
